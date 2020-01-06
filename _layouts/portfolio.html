@@ -1,0 +1,36 @@
+---
+layout: default
+---
+<!-- <h1 class="post-title">{{ page.title | escape }}</h1> -->
+
+{%- if site.posts.size > 0 -%}
+<!-- 
+      {%- for post in site.categories.art -%}
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        <h3>
+          <a class="post-link" href="{{ post.url | relative_url }}">
+            {{ post.title | escape }}
+          </a>
+          	<img src="{{ post.thumbnail}}" width="200" height="200"/>
+        </h3>
+        {%- if site.show_excerpts -%}
+          {{ post.excerpt }}
+        {%- endif -%}
+      {%- endfor -%}
+
+ -->
+
+    <figure>
+  	<div style="display:flex">
+	  {%- for post in site.categories.art -%}
+	    <div style="flex:{{ img.aspect }}">
+	      <a href="{{ post.url | relative_url }}">
+	        <img src="{{ post.thumbnail}}" width="200" height="200"/>
+	      </a>
+	    </div>
+	  {% endfor %}
+	  </div>
+	  <figcaption>{{ include.caption }}</figcaption>
+	</figure>
+
+{%- endif -%}

@@ -1,0 +1,32 @@
+.site-header{
+	border-top: none;
+}
+
+figcaption p {
+	margin-bottom: 0px;
+	margin-left: 25px;
+	margin-right: 25px;
+	text-align: center;
+}
+
+.center-fit{
+	max-height: 100vh;
+
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+.float-right{
+	float: right;
+	max-width: 20vw;
+
+}
+
+body{
+	transition: 1s ease;
+}
+
+.site-title, .site-title:visited{
+	color: $text-color !important;
+}
+
