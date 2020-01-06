@@ -1,4 +1,4 @@
-colors = ["#173F5F", "#20639B", "#3CAEA3", "#F6D55C", "#ED553B"];
+colors = ["#173F5F", "#20639B", "#3CAEA3", "#F6D55C", "#ED553B", "#f7929d"];
 prev_index = 0;
 $(".page-link").on("mouseenter", SwitchColor);
 $(".page-link").on("mouseout", ResetColor);

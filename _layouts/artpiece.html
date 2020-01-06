@@ -34,5 +34,12 @@ layout: default
   //   $(".page-link").css("color", "black");
 
   // }
-  $("body").css("background-color", "#"+color);
+  async function changeBackground() {
+    await new Promise(r => setTimeout(r, 1));
+    $("body").css("transition", "5s");
+    $("body").css("background-color", "#"+color);
+  }
+  
+  changeBackground();
+
 </script>
