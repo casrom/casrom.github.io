@@ -2,38 +2,6 @@
 	border-top: none;
 }
 
-figcaption p {
-	margin-bottom: 0px;
-	margin-left: 25px;
-	margin-right: 25px;
-	text-align: center;
-}
-
-.center-fit{
-    text-align: center;
-	display: flex;
-	align-items: center;
-	flex-direction: column;
-	padding-top: 25px;
-	padding-bottom: 25px;
-}
-
-.float-right{
-	float: right;
-	max-width: 50%;
-}
-
-@media (max-width: 850px) {
-
-	.float-right{
-		float:none;
-		max-width: 90vw;
-	}
-
-	.flex-container {
-		flex-direction: column;
-	}
-}
 
 @media screen and (max-width: 600px) {
 	.site-nav{
@@ -100,3 +68,69 @@ body{
 // 	bottom:1.6em;
 // 	left: 5px;
 // }
+
+
+//Art piece
+
+// h1, p, time {
+// 	padding-left: 10px;
+// }
+
+video.embedded {
+	width: 100%;
+	// padding-left: 5%;
+}
+
+.articlebg {
+	background-color: #0000005c;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.bg-video{
+	position:fixed;
+	left: 50%;
+    transform: translateX(-50%);
+    top:0;
+    height: 100vh;
+	z-index: -1;
+}
+
+
+figcaption p {
+	margin-bottom: 0px;
+	margin-left: 25px;
+	margin-right: 25px;
+	text-align: center;
+}
+
+.center-fit{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	width: 100%;
+}
+
+.float-right{
+	float: right;
+	max-width: 50%;
+}
+
+@media (max-width: 750px) {
+
+	.float-right{
+		float: none;
+		max-width: 90%;
+		padding-left: 5%;
+	}
+
+	.center-fit{
+
+	}
+
+	.flex-container {
+		flex-direction: column;
+	}
+}

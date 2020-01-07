@@ -4,8 +4,13 @@ title:  "the Gateway"
 date:   2019-12-01
 categories: art
 thumbnail: "/assets/portfolio/gateway/gateway_thumbnail.jpg"
-bg_color: "#2c2c2c"
+bgcolor: "000000"
+articlebg: "articlebg"
 ---
+<script type="text/javascript">
+  $("article").prepend('<video class="bg-video" muted autoplay loop><source src="/assets/portfolio/gateway/1.mp4" type="video/mp4" />Your browser does not support the video tag.</video>');
+  $("article").css("margin-top", "100vh");
+</script>
 
 <figure class="center-fit">
   <img src="/assets/portfolio/gateway/gateway_1.jpg" alt="Installation Photo" />

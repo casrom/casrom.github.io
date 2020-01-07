@@ -7,6 +7,11 @@ thumbnail: "/assets/portfolio/mango/thumbnail.jpg"
 bgcolor: "F6D55C"
 ---
 
+<video class="embedded" muted autoplay loop>
+  <source src="/assets/portfolio/mango/3.mp4" type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
+
 <figure class="center-fit">
   <img src="/assets/portfolio/mango/1.jpg" alt="Installation Photo" />
   <figcaption>
@@ -25,8 +30,3 @@ This is an installation that originates from a childhood memory when I cut my fi
 </figure>
 
 Many meanings were put into the collage: the overall shape of a blood puddle on the tiles, the bandage, the local taxi, the iodide sanitizer stain, the face mask(due to SARS that year)
-
-<video width="600" muted autoplay loop>
-  <source src="/assets/portfolio/mango/3.mp4" type="video/mp4" />
-  Your browser does not support the video tag.
-</video>
