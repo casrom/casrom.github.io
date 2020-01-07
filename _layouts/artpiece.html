@@ -38,7 +38,17 @@ layout: default
     $("body").css("transition", "5s");
     $("body").css("background-color", "#"+color);
   }
+
+  function autoPlay() {
+    if ($('video').length > 0) {
+      $('video').each(function () {
+        this.play();
+      })
+    }
+  }
   
   changeBackground();
+  autoPlay();
+
 
 </script>

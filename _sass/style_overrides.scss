@@ -3,16 +3,6 @@
 }
 
 
-@media screen and (max-width: 600px) {
-	.site-nav{
-		background-color: #2c2c2c !important;
-		z-index: 10;
-	}
-	.site-nav .menu-icon > svg {
-		fill: white !important;
-	}
-}
-
 body{
 	transition: 1s ease;
 }
@@ -30,6 +20,7 @@ body{
 }
 
 .thumbnail{
+	padding: 15px;
 	position:relative;
 	opacity: 1;
 	transition: .5s ease;
@@ -37,6 +28,20 @@ body{
 	// border-style: solid;
  //  	border-width: 1px;
  //  	border-color: #ffffff;
+}
+
+@media screen and (max-width: 600px) {
+	.site-nav{
+		background-color: #2c2c2c !important;
+		z-index: 10;
+	}
+	.site-nav .menu-icon > svg {
+		fill: white !important;
+	}
+
+	.thumbnail{
+		width:70%;
+	}
 }
 
 .hover-show{

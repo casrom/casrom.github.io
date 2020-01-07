@@ -22,7 +22,13 @@ layout: default
 
     <figure>
   	<div class="flex-container">
-	  {%- for post in site.categories.art -%}
+    {%- if page.topic == "art" -%}
+      {%- assign posts = site.categories.art -%}
+    {%- elsif page.topic == "projects" -%}
+      {%- assign posts = site.categories.projects -%}
+    {%- endif -%}
+
+	  {%- for post in posts -%}
 	    <div class="thumbnail">
 	      <a href="{{ post.url | relative_url }}">
 	        <img src="{{ post.thumbnail}}"/>

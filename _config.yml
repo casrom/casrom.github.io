@@ -61,5 +61,6 @@ defaults:
       image: true
 
 header_pages:
+  - projects.md
   - portfolio.md
   - about.md
