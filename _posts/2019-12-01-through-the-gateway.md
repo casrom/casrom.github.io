@@ -8,7 +8,7 @@ bgcolor: "000000"
 articlebg: "articlebg"
 ---
 <script type="text/javascript">
-  $("article").prepend('<video class="bg-video" muted autoplay loop><source src="/assets/portfolio/gateway/1.mp4" type="video/mp4" />Your browser does not support the video tag.</video>');
+  $("article").prepend('<video class="bg-video" muted autoplay playsinline loop><source src="/assets/portfolio/gateway/1.mp4" type="video/mp4" />Your browser does not support the video tag.</video>');
   $("article").css("margin-top", "100vh");
 </script>
 

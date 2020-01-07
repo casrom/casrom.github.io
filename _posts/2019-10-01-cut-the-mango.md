@@ -7,7 +7,7 @@ thumbnail: "/assets/portfolio/mango/thumbnail.jpg"
 bgcolor: "F6D55C"
 ---
 
-<video class="embedded" muted autoplay loop>
+<video class="embedded" muted autoplay loop playsinline>
   <source src="/assets/portfolio/mango/3.mp4" type="video/mp4" />
   Your browser does not support the video tag.
 </video>
