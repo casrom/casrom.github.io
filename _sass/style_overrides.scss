@@ -17,6 +17,7 @@ body{
 	justify-content: space-between;
 	//justify-content: center;
   	align-items: center;
+  	flex-wrap: wrap;
 }
 
 .thumbnail{
@@ -24,7 +25,7 @@ body{
 	position:relative;
 	opacity: 1;
 	transition: .5s ease;
-	width:30%;
+	width:29%;
 	// border-style: solid;
  //  	border-width: 1px;
  //  	border-color: #ffffff;
