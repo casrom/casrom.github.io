@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .site-header{
 	border-top: none;
 }
@@ -85,6 +89,8 @@ body{
 video.embedded {
 	width: 100%;
 	// padding-left: 5%;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 // iframe {

@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<article class="post h-entry {{page.articlebg}} " itemscope itemtype="http://schema.org/BlogPosting">
+<article id="article-container" class="post h-entry {{page.articlebg}} " itemscope itemtype="http://schema.org/BlogPosting">
   <header class="post-header">
     <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
     <p class="post-meta">
@@ -27,6 +27,7 @@ layout: default
 
 <script type="text/javascript">
   var color = "{{page.bgcolor | json}}";
+  var isFullScreen = "{{page.fsbg | json}}";
   // var text_color_threshold = "0x999999"
   // if (parseInt("0x"+color) > text_color_threshold) {
   //   $("body").css("color", "black");
@@ -46,7 +47,21 @@ layout: default
       })
     }
   }
-  
+
+  var autoScrolled = false;
+  if (window.location.href.indexOf("#article-container") != -1) autoScrolled = true;
+  if (isFullScreen) {
+    var video = document.getElementsByTagName('video')[0];  
+    video.onended = function(e) {
+      video.play();
+      if (!autoScrolled){
+        window.location.href=window.location.href+"#article-container";
+        autoScrolled = true;
+      }
+    };
+
+  }
+
   changeBackground();
   autoPlay();
 
