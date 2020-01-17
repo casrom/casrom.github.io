@@ -30,3 +30,7 @@ This is an installation that originates from a childhood memory when I cut my fi
 </figure>
 
 Many meanings were put into the collage: the overall shape of a blood puddle on the tiles, the bandage, the local taxi, the iodide sanitizer stain, the face mask(due to SARS that year)
+
+<div class="video-responsive">
+<iframe width="560" height="349" src="https://www.youtube.com/embed/JvgPgPbBv7E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>

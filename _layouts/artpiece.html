@@ -48,18 +48,21 @@ layout: default
     }
   }
 
-  var autoScrolled = false;
-  if (window.location.href.indexOf("#article-container") != -1) autoScrolled = true;
+  var scrolled = false;
+  if (window.location.href.indexOf("#article-container") != -1) scrolled = true;
   if (isFullScreen) {
     var video = document.getElementsByTagName('video')[0];  
     video.onended = function(e) {
       video.play();
-      if (!autoScrolled){
+      if (!scrolled){
         window.location.href=window.location.href+"#article-container";
-        autoScrolled = true;
+        scrolled = true;
       }
     };
+  }
 
+  window.onscroll = function (e) {  
+    scrolled = true;
   }
 
   changeBackground();
