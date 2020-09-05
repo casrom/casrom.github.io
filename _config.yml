@@ -25,7 +25,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Game + Science
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://casrom.com" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: 
+twitter_username: SCKICW
 github_username:  casrom
 instagram_username: autu_x
 
@@ -65,3 +65,5 @@ header_pages:
   - portfolio.md
   - projects.md
   - about.md
+
+google_analytics: UA-177305743-1
