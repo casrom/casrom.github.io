@@ -61,6 +61,7 @@ defaults:
       image: true
 
 header_pages:
-  - projects.md
+  - games.md
   - portfolio.md
+  - projects.md
   - about.md

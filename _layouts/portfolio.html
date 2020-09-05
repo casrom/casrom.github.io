@@ -26,6 +26,8 @@ layout: default
       {%- assign posts = site.categories.art -%}
     {%- elsif page.topic == "projects" -%}
       {%- assign posts = site.categories.projects -%}
+    {%- elsif page.topic == "gamedev" -%}
+      {%- assign posts = site.categories.gamedev -%}
     {%- endif -%}
 
 	  {%- for post in posts -%}
