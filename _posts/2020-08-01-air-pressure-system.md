@@ -11,7 +11,7 @@ bgcolor: "4a6691"
 
 This is a custom simulation of air pressure in a base building game I'm working on. Behind the scenes it uses data propagation over fixed space chunks. 
 
-[View Source on Github](https://github.com/casrom/UnrealPrototypes)
+[\<View Source on Github\>](https://github.com/casrom/UnrealPrototypes)
 
 <figure class="center-fit">
   <img src="/assets/gamedev/airpressure/basebuilding.gif"/>
