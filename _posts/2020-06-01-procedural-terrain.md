@@ -16,7 +16,7 @@ bgcolor: "374f75"
 
 This is a popular implementation of procedural terrain using perlin noise and LOD. The gap artifacts howerver are yet to be fixed. 
 
-[View Source on Github](https://github.com/casrom/UnityPlayground)
+[\<View Source on Github\>](https://github.com/casrom/UnityPlayground)
 
 <div class="video-responsive">
 <iframe width="560" height="349" src="https://www.youtube.com/embed/Zfw04AuMZsQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
