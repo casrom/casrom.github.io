@@ -1,7 +1,7 @@
 ---
 layout: artpiece
 title:  "Base Building Revisited"
-date:   2020-8-1
+date:   2021-1-30
 categories: gamedev
 thumbnail: "/assets/gamedev/basebuilding/thumbnail.png"
 bgcolor: "4a6691"
