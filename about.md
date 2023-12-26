@@ -2,7 +2,6 @@
 layout: about
 title: About
 permalink: /about/
-avatar: "/assets/img/avatar.jpg"
 ---
 
 Hello there!
